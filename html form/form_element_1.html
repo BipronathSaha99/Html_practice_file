@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BSMRSTU Admission Form</title>
+</head>
+<body>
+    <fieldset style="background-color:gray;">
+        <label><b>Student Information List</b></label>
+        <img src="bsmrstu.png" style="float:right; width:100px; height:100px;">
+        <form action="#" method="POST">
+        <label for="First Name">First Name</label><br>
+        <input id="First Name" type="text" placeholder="First Name"required><br>
+        <label for="Last Name">Last Name</label><br>
+        <input id="Last Name" type="text" placeholder="Last Name"required><br>
+        E-mail<br>
+        <input type="email" placeholder="E-mail"required><br>
+        <label>Phone</label><br>
+        <input type="tel" placeholder="Phone"><br>
+        Birthdate<br>
+        <input type="date"><br>
+        Gender<br>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        <input type="radio" name="gender">Other<br>
+        Zilla<br>
+        <input list="zilla">
+        <datalist id="zilla">
+            <option value="Dhaka">Dhaka</option>
+            <option value="Chitagong">Chitagong</option>
+            <option value="Rajshahi">Rajshahi</option>
+            <option value="Khulna">Khulna</option>
+        </datalist><br>
+        <input type="checkbox">I,thereby proclaimed that all the information about me is real.
+        <br><br> 
+        <input type="reset">
+        <input type="submit"value="Send">
+        
+    </form>
+    </fieldset>
+    
+</body>
+</html>
