@@ -1,0 +1,49 @@
+p
+{
+    color:blue;
+    text-indent: 15px;
+    
+    
+}
+h2{
+    color:red;
+    text-decoration:underline;
+    text-align:justify;
+    
+    
+}
+div{
+    text-align:justify;
+    color:black;
+    
+    
+    text-indent: 15px;
+    line-height: 1.0;
+}
+h1{
+    color:green;
+    text-decoration:underline;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px red;
+    
+    
+}
+h3{
+    text-decoration:overline;
+    word-spacing: 10px;
+}
+h4{
+    text-decoration: line-through;
+}
+label
+{
+    text-transform: lowercase;
+}
+h5{
+    text-transform: uppercase;
+}
+h6
+{
+    text-transform:capitalize;
+    
+}
