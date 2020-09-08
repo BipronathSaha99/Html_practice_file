@@ -1,0 +1,21 @@
+#bns
+{
+
+    margin: 0;
+    padding: 100px;
+    color:black;
+    text-align:center;
+    border: 1px solid black;
+    font-size:30px;
+}
+
+a
+{
+    text-decoration:none;
+
+}
+a:hover{
+    background-color:yellow;
+    text-decoration: underline;
+    color:tomato;
+}
