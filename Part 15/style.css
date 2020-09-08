@@ -1,0 +1,19 @@
+.abc{
+    margin: 1px solid ;
+    background-color: aqua;
+}
+ul.a{
+   list-style-type: circle;
+   color: green;
+   
+}
+   
+ol.b{
+    list-style-type: lower-alpha;
+    color: green;
+   
+    
+ }
+
+
+ 
