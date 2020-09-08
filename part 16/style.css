@@ -1,0 +1,32 @@
+body
+{
+    background:#ddd;
+    
+}
+h1,h2,h3,h4,h5,h6{
+    color: black;
+    text-decoration:underline;
+}
+
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 30%;
+    height: 50%;
+    padding:10px;
+    text-align: center;
+    vertical-align: auto;
+
+}
+tr:hover{
+    background:tomato;
+
+}
+div
+{
+    text-align: left;
+
+}
+div:hover{
+    color: yellowgreen;
+}
