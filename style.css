@@ -1,14 +1,7 @@
-.social-contact 
-{
-    padding: 20px;
-    margin: 1px solid black;
+div{
+	
+ 	width:300px;
+	height:200px;
+	border:2px solid #000;
+	overflow:scroll;
 }
-.fab {
-    font-size:30px;
-}
-.social-contact i:hover
-{
-    text-decoration:none;
-    color:tomato;
-}
-
