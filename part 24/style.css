@@ -1,0 +1,7 @@
+/*pseduo Class*/
+body{
+
+}
+h2:nth-child(2){
+    color:red;
+}
