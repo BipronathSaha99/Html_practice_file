@@ -1,0 +1,55 @@
+/* Set the default paddings and margin */
+* {
+    margin: 0;
+    padding: 0;  
+    font-family: 'Lato', sans-serif; 
+}
+/* Menu */
+.menu
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('header-image.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.menu ul
+{
+    background-color:gray;
+    overflow: hidden;   
+}
+.menu ul li{
+    list-style-type:none;
+    float: left;   
+}
+.menu ul li a{
+    color: #ffffff;
+    text-decoration: navajowhite;
+    padding: 16px 20px;
+    text-transform: capitalize;
+    display: inline-block;
+    position: relative;
+}
+.menu ul li a:hover{
+    background-color: #f9f9f9;
+    color: #333;
+}
+/* Dropdown Menu */
+.menu ul li .dropdown{
+    position: absolute;
+    min-width: 200px;
+    background-color:black;
+    display: none;
+}
+.menu ul li .dropdown a
+{
+    color: #fff;
+    display: block;
+}
+.menu ul li .dropdown a:hover{
+    background-color: #f1f1f1;
+    color: #333;
+}
+.menu ul li:hover .dropdown
+{
+    display: block;
+}
