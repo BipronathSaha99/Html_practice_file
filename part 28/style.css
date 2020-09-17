@@ -1,0 +1,42 @@
+.icons ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.icons ul li{
+    list-style-type: none;
+    float: left;
+    margin-right: 10px;
+}
+.icons ul li:last-child{
+    margin-right: 0;
+}
+.icons ul li a{
+    background-image: url('spirates_icons.png');
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 50%;
+    transition: 1s;
+}
+.icons ul li:hover:first-child a{
+    background-position: 0px -40px;
+   
+}
+.icons ul li:nth-child(2) a{
+    background-position: -78px 1px;
+    transition: 1s;
+}
+.icons ul li:hover:nth-child(2) a{
+    background-position: -78px -39px;
+}
+.icons ul li:nth-child(3) a{
+    background-position: -156px 0px;
+    transition: 1s;
+}
+.icons ul li:hover:nth-child(3) a{
+    background-position: -156px -39px;
+}
