@@ -1,0 +1,21 @@
+/* Media Query */
+
+.bns
+{
+    width: 300px;
+    height: 400px;
+    background-color:red;
+}
+/* @media screen and (max-width:480px){
+    .bns{
+        background-color: green;
+    }
+} */
+p{
+    font-size: 20px;
+}
+@media screen and (min-width:499px) and (max-width:500px){
+    .bns{
+        background-color: aqua;
+    }
+}
