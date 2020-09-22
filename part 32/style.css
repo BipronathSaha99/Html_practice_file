@@ -1,0 +1,45 @@
+/* General style */
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    background-color: aqua;
+    /*
+    The translate() method moves an element from its current position
+    (according to the parameters given for the X-axis and the Y-axis). 
+    */
+    /* transform: translate(100px,200px); */
+    /* transform:translateX(100px); */
+    /* transform:translateY(100px); */
+
+    /* The rotate() method rotates an element clockwise or 
+    counter-clockwise according to a given degree. */
+    /* transform: rotate(20deg);
+    transform: rotate(-20deg); */
+
+    /* The scale() method increases or decreases the size of an element 
+    (according to the parameters given for the width and height). */
+    /* transform: scale(2,3);
+    transform: scaleX(2);
+    transform: scaleY(3); */
+
+    /* The skew() method skews an element along 
+    the X and Y-axis by the given angles. */
+
+    /* transform: skew(20deg,10deg);
+    transform: skewX(20deg);
+    transform: skewY(20deg); */
+/* 
+    The matrix() method combines 
+    all the 2D transform methods into one. */
+    transform: matrix(1,0.5,-2, 1,0,0);
+}
+.box h3{
+    font-size: 20px;
+    padding: 100px;
+    text-align: center;
+}
