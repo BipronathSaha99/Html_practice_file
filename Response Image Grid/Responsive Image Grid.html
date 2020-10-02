@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image Grid</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .header{
+            text-align: center;
+            font-size: medium;
+            padding: 10px;
+            background-color: #333;   
+        }
+        p{
+            color:aliceblue;
+        }
+        h1{
+            color:#fff;
+        }
+
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0 3px;
+        }
+        .column{
+            flex: 25%;
+            max-width:25%;
+            padding: 0 4px;
+        }
+        
+        .column img{
+            width: 300px;
+            height: auto;
+            margin-top: 8px ;
+            border: 1px solid black;
+        }
+        @media screen and (max-width: 800px){
+            .column{
+                flex: 25%;
+                max-width: 50%;
+            }
+        }
+        @media screen and (max-width: 600px){
+            .column{
+                flex: 25%;
+                max-width: 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <h1>Responsive Image Grid</h1>
+        <p>Resize the browser window to see the responsive effect.</p>
+    </div>
+    <!-- Photo Grid -->
+    <div class="row">
+        <div class="column">
+            <img src="img_5terre.jpg" style="width:100%">
+            <img src="img_forest.jpg" style="width:100%">
+            <img src="img_lights.jpg" style="width:100%">
+            <img src="img_mountains.jpg" style="width:100%">
+        </div>
+
+        <div class="column">
+            <img src="img_5terre.jpg" style="width:100%">
+            <img src="img_forest.jpg" style="width:100%">
+            <img src="img_lights.jpg" style="width:100%">
+            <img src="img_mountains.jpg" style="width:100%">
+        </div>
+
+        <div class="column">
+            <img src="img_5terre.jpg" style="width:100%">
+            <img src="img_forest.jpg" style="width:100%">
+            <img src="img_lights.jpg" style="width:100%">
+            <img src="img_mountains.jpg" style="width:100%">
+        </div>
+
+        <div class="column">
+            <img src="img_5terre.jpg" style="width:100%">
+            <img src="img_forest.jpg" style="width:100%">
+            <img src="img_lights.jpg" style="width:100%">
+            <img src="img_mountains.jpg" style="width:100%">
+        </div>
+    </div>
+</body>
+</html>
